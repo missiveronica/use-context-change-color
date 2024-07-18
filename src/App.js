@@ -1,6 +1,7 @@
 import './App.css';
 import MyTheme from './MyTheme';
 import React, { useState } from 'react';
+import MyThemeTwo from './MyThemeTwo';
 export const ColorContext = React.createContext()
 
 
@@ -20,6 +21,7 @@ function App() {
   
     <button onClick={changeColor}>Change color</button>
     <MyTheme/>
+    <MyThemeTwo/>
     </ColorContext.Provider>
     </div>
   );
